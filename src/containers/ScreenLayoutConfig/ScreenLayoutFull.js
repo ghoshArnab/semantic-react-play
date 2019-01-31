@@ -6,13 +6,14 @@ import {
 import Header from '../Header/Header'
 import '../../styles/App.css';
 import Footer from '../Footer/Footer';
-import SplitPane from '../SplitPanel/SplitPanel'
+import Navbar from '../Navbar/Navbar';
+/*import SplitPane from '../SplitPanel/SplitPanel';*/
 
 
 const ScreenLayoutFull = () => {
     const config = {
         header :true,
-        footer : false,
+        footer : true,
         pane : {
             left: true,
             right : true
@@ -22,8 +23,11 @@ const ScreenLayoutFull = () => {
     return (<div>
         <Header config={config} />
         <Container text>
+        <Navbar />
         </Container>
+        {/*
         <SplitPane config={config} />
+        */}
         <Footer config={config} />
     </div>);
 }
