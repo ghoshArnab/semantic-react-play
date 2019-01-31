@@ -3,7 +3,7 @@ import { Image } from 'semantic-ui-react'
 
 const ImageExampleAvatar = () => (
     <Image
-      src='https://agilestudio.pega.com/prweb/AgileStudio/datacontent/Image/operatorimages/chamn@pegasystems.com.png'
+      src='https://cdn3.iconfinder.com/data/icons/diversity-avatars/64/albert-einstein-128.png'
       avatar
     />
 )
